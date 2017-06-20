@@ -1,0 +1,75 @@
+FILE NOTATION
+    .md file are markdown file. It's a kind of .html but only in markdown language
+
+
+    """"""""""""""""""""""""""""""""""""""""""""
+    For example, if the index.md file is this
+            ---
+            layout: home
+            ---
+
+    WHat it does, it only call _layout/home.hmtl
+
+    """"""""""""""""""""""""""""""""""""""""""""
+
+HOW IT WORKS
+
+It's a chain
+
+Let's see the exemple
+
+    """"""""""""""""""""""""""""""""""""""""""""
+    For example, if the index.md file is this
+            ---
+            layout: home
+            ---
+    
+    And _layout/home.html is:
+
+            ---
+            layout: default
+            ---
+            <div class="home">
+                <p>"Hello World"</p>
+            </div>
+
+    And finally, _layout/default.html is:
+            <!DOCTYPE html>
+                <body>
+                    {{ content }}
+                </body>
+            </html>
+
+    When the root of the website is called (index.md), it opens index.html and the final output is:
+
+            <!DOCTYPE html>
+                <body>
+                    <div class="home">
+                        <p>"Hello World"</p>
+                    </div>
+                </body>
+            </html>   
+
+    As we can see, _layout/home.html called _layout/default.html AND INTEGRATED ITSEL INSIDE {{ content }}
+
+
+
+JEKYLL STRUCTURE
+    index.[md or html] is the main page of a jekyll site >> BECAUSE it's the index page (you know, basic url)
+
+
+CONCEPT
+    _layouts is where you store your layout s. A layout is a reusable piece of html.
+    layout is a reserved keyword in jekyll
+        Source: https://jekyllrb.com/docs/frontmatter/
+    the other keywords are yours to decide!
+        To call them
+        """
+        ---
+        layout: post
+        title:  "Welcome to Jekyll!"
+        date:   2017-06-01 19:45:10 -0400
+        categories: jekyll update
+        ---
+
+        """

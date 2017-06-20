@@ -1,0 +1,8 @@
+zcHZ95t5yBQTdCnuBoUDE6HGSYykEccNoeYtfn4TbyFRFTVscYfsBhz6bX9vPopj1gUKsyo1raCHsDmfR4xudsyxQmYyZFz
+znk
+
+zcHZ95t5yBQT
+
+ethernet: 00:F7:6F:D5:07:36
+Wifi 2.4: 00:F7:6F:CC:81:3E
+wifi 5: 00:F7:6F:CC:81:3F

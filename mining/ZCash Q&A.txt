@@ -1,0 +1,13 @@
+WHAT ARE THE TWO TYPE OF ADDRESSES IN ZCASH?
+
+Source: https://bitcoin.stackexchange.com/questions/49115/whats-the-difference-between-z-addr-and-t-addr-type-addresses
+
+Zcash has two kinds of address: a z-addr is a fully private address that uses the zero-knowledge proving system to shield a transaction and balance privacy. A t-addr (aka "transparent address") is similar to a Bitcoin address.
+
+An address can be created using:
+
+zcash-cli getnewaddress    # t-addr, or
+zcash-cli z_getnewaddress  # z-addr
+t-addr is a 36 characters long string beginning with t.
+
+z-addr has 96 characters and starts with z.
