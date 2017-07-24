@@ -1,0 +1,10 @@
+MARKET
+    Poloniex
+
+ANALYSIS
+    https://coinmarketcap.com/
+    https://taifuindexes.com/
+    https://www.deribit.com/ - OPTIONS
+    https://www.okcoin.com/ - DERIVATIVE
+    https://tokenmarket.net/ - ICO Network
+    https://bittrex.com/ - EXCHANGE

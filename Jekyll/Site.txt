@@ -1,0 +1,361 @@
+BEER TYPE
+    Ales
+    Lagers
+    Stout
+    Porters
+    Malts
+
+BEER STYLE
+    Amber
+    Blonde
+    Brown
+    Cream
+    Drak
+    Fruit
+    Golden
+    Honey
+    Indian Pale Ale
+    Light
+    Lime
+    Pale
+    Pilsner
+    Red
+    Strong
+    Wheat
+
+FAMILY
+    Belgian
+    Bock
+    Brown Ale
+    Ciders
+    Dark Lagers
+    Flavored Malts
+    Hybrid
+    IPA
+    Irish
+    Meads
+    Pale Ale
+    Pilsner and Pale Lagers
+    Porters
+    Scotch Ale
+    Stouts
+    Strong Ale
+
+--------------------
+Source:  https://bendbrewfest.com/beers.html
+ALE BREWING STYLES
+BELGIUM
+Abbey Beers:
+Belgian Browns:
+Golden/Blonde:
+Lambics:
+Red Beers:
+Saisons:
+Trappist Beers:
+White (Wit) Bier:
+GERMANY
+Alt Bier:
+Beliner Weisse:
+Dunkel-weizens:
+Hefe-weizen:
+Bocks:
+ENGLAND
+Barley Wine:
+Bitters English:
+Ordinary bitter:
+Special bitter:
+ESB (Extra Special Bitter):
+English Browns:
+India Pale Ale (IPA):
+Pale Ales:
+Porters:
+Oatmeal Stouts:
+Sweet Stouts (or Cream Stouts):
+Strong Ales:
+SCOTLAND
+Scotch Ale:
+Scottish Ales:
+Scottish Light Ales:
+Scottish Heavy Ales:
+Scottish Export Ales:
+IRELAND
+Dry stouts:
+FRANCE
+Bier de Garde:
+VARYING COUNTRIES
+Foreign-style Stout:
+Imperial Stouts:
+Winter Warmers:
+
+LAGER BREWING STYLES
+GERMANY
+Bock:
+Dortmunder/Export:
+German Helles:
+Munich-style Dunkels:
+GERMANY or PAULA, ITALY (you decide)
+Doppelbocks:
+PILSNERS- GERMANY
+German style Pilsners:
+Ur-Marzen or Oktoberfest:
+Rauchbier (smoked):
+VARYING COUNTRIES
+Czech Pilsners:
+Bohemian Pilsners:
+
+---------------------
+Source: https://www.craftbeer.com/beer-styles
+Scotch Ale/Wee Heavy
+
+----------------------
+Source: https://beerconnoisseur.com/style-families
+
+Source: http://www.dummies.com/food-drink/drinks/beer/beer-style-guidelines-hierarchy/
+ALE
+ENGLISH PALE ALE
+
+Standard Ordinary Bitter
+
+Special / Best Bitter
+
+Extra Special / Strong Bitter
+
+SCOTTISH AND IRISH ALE
+
+Scottish Light 60
+
+Scottish Heavy 70
+
+Scottish Export 80
+
+Irish Red Ale
+
+Scotch Strong Ale
+
+AMERICAN ALE
+
+American Pale Ale
+
+American Amber Ale
+
+American Brown Ale
+
+ENGLISH BROWN ALE
+
+Mild
+
+Southern English Brown Ale
+
+Northern English Brown Ale
+
+PORTER
+
+Brown Porter
+
+English Porter
+
+Baltic Porter
+
+STOUT
+
+Dry Stout
+
+Sweet Stout
+
+Oatmeal Stout
+
+Foreign Extra Stout
+
+American Stout
+
+Russian Imperial Stout
+
+INDIA PALE ALE
+
+English IPA
+
+American IPA
+
+Imperial IPA
+
+BELGIAN AND FRENCH ALE
+
+Witbier
+
+Belgian Pale Ale
+
+Saison
+
+Biere de Garde
+
+SOUR ALE
+
+Berliner Weisse
+
+Flanders Red Ale
+
+Straight (unblended) Lambic
+
+Gueuze
+
+Fruit Lambic
+
+BELGIAN STRONG ALE
+
+Belgian Blonde Ale
+
+Belgian Dubbel
+
+Belgian Tripel
+
+Belgian Golden Strong Ale
+
+Belgian Dark Strong Ale
+
+STRONG ALE
+
+Old Ale
+
+English Barley Wine
+
+American Barley Wine
+
+LAGER
+LIGHT LAGER
+
+Lite American Lager
+
+Standard American Lager
+
+Premium American Lager
+
+Munich Helles
+
+Dortmunder Export
+
+PILSENER
+
+German Pilsener (Pils)
+
+Bohemian Pilsener
+
+Classic American Pilsener
+
+EUROPEAN AMBER LAGER
+
+Vienna Lager
+
+Oktoberfest / Märzen
+
+DARK LAGER
+
+Dark American Lager
+
+Munich Dunkel
+
+Schwarzbier (black beer)
+
+BOCK
+
+Maibock / Helles Bock
+
+Traditional Bock
+
+Doppelbock
+
+Eisbock
+
+MIXED STYLE
+LIGHT HYBRID BEER
+
+Cream Ale
+
+Blonde Ale
+
+Kölsch
+
+American Wheat or Rye
+
+AMBER HYBRID BEER
+
+Northern German Altbier
+
+California Common Beer
+
+Dusseldorf Altbier
+
+GERMAN WHEAT AND RYE BEER
+
+Weizen / Weiss bier
+
+Dunkelweizen
+
+Weizenbock
+
+Roggenbier (Rye beer)
+
+FRUIT BEER
+
+SPICE / HERB / SPECIALTY BEER
+
+Spice / Herb / Vegetable beer
+
+Christmas / Winter / Specialty Spiced Beer
+
+SMOKE FLAVORED and WOOD AGED BEER
+
+Classic Rauchbier
+
+Other Smoked Beer
+
+Wood Aged Beer
+
+SPECIALTY BEER
+
+MEAD AND CIDER
+TRADITIONAL MEAD
+
+Dry Mead
+
+Semi-sweet Mead
+
+Sweet Mead
+
+MELOMEL (FRUIT MEAD)
+
+Cyser (apple Melomel)
+
+Pyment (grape Melomel)
+
+Other Fruit Melomel
+
+OTHER MEAD
+
+Metheglin (spiced Mead)
+
+Braggot (barley Mead)
+
+Open Category Mead
+
+STANDARD CIDER and PERRY
+
+Common Cider
+
+English Cider
+
+French Cider
+
+Common Perry
+
+Traditional Perry
+
+SPECIALTY CIDER and PERRY
+
+New England Cider
+
+Fruit Cider
+
+Apple Wine
+
+Other Specialty Cider and Perry
+

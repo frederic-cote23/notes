@@ -73,3 +73,74 @@ CONCEPT
         ---
 
         """
+
+MANAGING VARIABLES
+        The variable default_path gets assigned the value of site.pages
+        """
+            {% assign default_paths = site.pages
+        """
+        
+        | is to chain for a specific filter
+
+
+        In this example, assume the object site.pages contains all the metadata for a website. Using assign with the map filter creates a variable that contains only the values of the category properties of everything in the site.pages object.
+        """
+            {% assign all_categories = site.pages | map: "category" %}
+        """
+            Creates an array of values by extracting the values of a named property from another object.
+
+IF STATEMENT
+
+    This is to 
+        1 - Extract all the pages (.md) from the site
+        2 - map only the 'path' parameters (https://shopify.github.io/liquid/filters/map/)
+        3 - Then, iterate all the pages extracted in 1
+        4 - If the page path (page.path)
+        """
+            {% assign all_categories = site.pages | map: "path" %}
+            {% for post in all_categories %}
+                {% if post contains "beers" %}
+                    <li>
+                        {{post}}
+                    </li>
+                {% endif %}
+            {% endfor %}            
+        """
+
+
+HOW TO MANAGE PAGES
+
+        """
+            layout: page
+        """
+
+GULP FILE
+
+var gulp = require('gulp');
+var shell = require('gulp-shell');
+var browserSync = require('browser-sync').create();
+/*var uncss = require('gulp-uncss');*/
+/*var minifycss = require('gulp-minify-css');*/
+
+gulp.task('build', shell.task(['jekyll build --watch']));
+
+
+gulp.task('serve', function () {
+
+	browserSync.init({server: {baseDir: '_site/'}});
+
+	gulp.watch('_site/**/*.*').on('change', browserSync.reload);
+
+});
+
+
+gulp.task('default', ['build','serve']);
+
+STEPS
+
+    1 - jekyll new [nameOfTheSite]
+    2 - cd [nameOfTheSite]
+    3 - npm install -g glup
+    4 - npm install --save-dev gulp-shell lodash gulp browser-sync
+
+
