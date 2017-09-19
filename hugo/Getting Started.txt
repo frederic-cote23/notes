@@ -1,2 +1,55 @@
-hugo server --theme=hugo_theme_robust --buildDrafts
-hugo server --theme=hugo-theme-bleak --buildDrafts
+******************************************************
+CREATE A NEW SITE
+******************************************************
+"""""""""""""""""""""""""
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/, or
+   create your own with the "hugo new theme <THEMENAME>" command.
+2. Perhaps you want to add some content. You can add single files
+   with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
+3. Start the built-in live server via "hugo server".
+"""""""""""""""""""""""""
+
+
+
+1 (Create a new site in PATH and force it if empty)
+        hugo new site [PATH] [--force]
+
+2- (Create a empty custom theme)
+        hugonew theme [THEMENAME]
+
+3 - (Install a theme from Github)
+        cd themes
+        git clone [GITHUB LINK]
+
+
+4 - (Set the Template)
+        hugo -t [THEME NAME FROM themes folder] (THis BUILD the site using the Template)
+        OR
+        Use this in the config.toml 
+                theme = "hyde"
+
+******************************************************
+WORKING WITH THEME
+******************************************************
+
+ - (Fundamentals)
+        Themes are stored in the */themes/[YOUR THEM]/* folder
+        THis is how you force a Theme on a site (config.toml): theme = "hyde" 
+        The home page is ALWAYS index.html (*/Layouts/index.html/* )
+
+ - (Home Page)
+        Source: https://gohugo.io/templates/homepage/
+        THe home page is special
+        The lookup order for the homepage template is as follows:
+                /layouts/index.html
+                /layouts/_default/list.html
+                /themes/<THEME>/layouts/index.html
+                /themes/<THEME>/layouts/_default/list.html
+
+ - (Components of a Theme)
+        Layouts is the folder that contains the HTML of a Page
+
+ - (Customizing a Theme)
+        inside the */layouts/* folder, cope exactly what you want to import
+
