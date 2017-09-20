@@ -53,3 +53,46 @@ WORKING WITH THEME
  - (Customizing a Theme)
         inside the */layouts/* folder, cope exactly what you want to import
 
+
+******************************************************
+DATA
+******************************************************
+
+You can easily create a page that is parcing parcing a JSON
+https://snipcart.com/blog/hugo-tutorial-static-site-ecommerce
+
+******************************************************
+LIST TEMPLATE
+******************************************************
+
+- (List Template are really useful to create a page that list all files under it)
+
+- (Some Sample )
+
+        ├── content
+        |   ├── wines
+        |   |   ├── _index.md
+        |   |   ├── Wine1.md
+
+        _index will use the list template, which is delcared
+
+        ├── layouts
+        |   ├── _default
+        |   |   ├── list.hmtl
+
+        Then inside the list.html, you can use
+
+        {{ partial "header.html" . }}
+
+        {{.Content}}
+
+        {{range .Pages}}
+                {{.Title}}<br>
+        {{end}}
+
+        {{ partial "footer.html" }}
+
+        ({{.Content}}) >> Calls the content of the _index.md 
+        {{range .Pages}} >> iterates all pages under _index.md
+                >> This gives you access to all the inside EACH of the Pages
+                        >>{{.Title}} gives you the title
